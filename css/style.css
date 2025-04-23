@@ -25,3 +25,48 @@ body a {
     max-width: 1440px;
     margin: 0px auto;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo h1 {
+    font-weight: 400;
+    font-size: 17px;
+    max-width: 100px;
+    color: var(--yordamchi);
+}
+
+.logoBilanTekst {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.link {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.link a {
+    color: var(--yordamchi);
+    font-weight: 600;
+}
+
+.link button {
+    background-color: var(--yordamchi);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 0;
+}
