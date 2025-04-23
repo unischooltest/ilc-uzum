@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --asosiy-orqa-fon: #F4F7FA;
+    --asosiy-text: #262626;
+    --yordamchi: #273895;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--asosiy-orqa-fon);
+    color: var(--asosiy-text);
+}
+
+body a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
